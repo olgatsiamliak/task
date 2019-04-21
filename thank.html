@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html  lang="ru" class="html__pressed-footer">
+<head lang="ru">
+    <meta charset="UTF-8">
+    <title>Test task</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="assets/css/libs.css">
+</head>
+    <body class="body__pressed-footer">
+        <header class="header header__pressed-footer">
+            <div class="wrapper">
+                <div class="logo"><a href="index.html">LOGO</a></div>
+                <div class="toggle-btn toggle-btn-tg"></div>
+                <div class="main-nav">
+                    <ul class="main-nav__list">
+                        <li><a href="#">Пункт меню 1</a></li>
+                        <li><a href="#">Пункт меню 2</a></li>
+                        <li><a href="#">Пункт меню 3</a></li>
+                    </ul>
+                    <div class="login-form">
+                        <div class="login-form__login btn">Вход</div>
+                        <div class="login-form__register btn">Регистрация</div>
+                    </div>
+                </div>
+                <div class="login-form__lg-form hidd">
+                            <div class="login-close"></div>
+                            <form action="send.php">
+                                <input name="phone" class="login-form__field" type="tel" placeholder="+7 (999) 999-99-99">
+                                <input name="password" class="login-form__field" type="password" placeholder="Пароль">
+                                <button type="submit" class="btn login-form__login btn-popup">Вход</button>
+                            </form>
+                 </div>
+            </div>
+        </header>
+        <div class="main-content">
+            <div class="wrapper">
+                <h1>Спасибо! Ваш запрос авторизации отправлен.</h1>
+            </div>
+        </div>
+        <footer class="footer__pressed-footer">
+            <div class="wrapper">
+                <p class="copyrights">Copyrighs &copy; Bongo Beyond 2019</p>
+            </div>
+        </footer>
+        <div class="overlay hidd"></div>
+        <div class="modal modal-attention hidd">
+            <div class="modal-close modal-close__top"></div>
+            <div class="modal-content">
+                <p>Регистрация временно недоступна</p>
+                <button class="modal-close btn-close">oкей</button>
+            </div>
+        </div>
+        <div class="modal modal-new hidd">
+            <div class="modal-close modal-close__top"></div>
+            <div class="modal-content">
+                <p>Новый товар</p>
+                <button class="modal-close btn-close">oкей</button>
+            </div>
+        </div>
+        <script src='assets/js/jquery.js'></script>
+        <script src="assets/js/libs.js"></script>
+        <script src="assets/js/script.js"></script>
+    </body>
+</html>
